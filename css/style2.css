@@ -1,0 +1,354 @@
+ body {
+   margin: 0;
+   padding: 0;
+ }
+
+ .gutter {
+   background-color: #bdbdbd;
+   width: 10px !important;
+ }
+
+ .content1::-webkit-scrollbar {
+   width: 5px;
+ }
+
+ .modal-title {
+   text-align: center;
+ }
+
+ #dialog-content {
+   margin: auto;
+   width: 100%;
+ }
+
+ .dialog-content-signature-attach {
+   width: 32%;
+   margin-right: 3px;
+   background-color: #eeeeee;
+   height: 200px;
+   display: inline-block;
+   background-position: center;
+   background-size: cover;
+   cursor: pointer;
+ }
+
+ .dialog-content-signature-image {
+   cursor: pointer;
+   background-position: center;
+   background-size: cover;
+   width: 200px;
+   background-color: #eeeeee;
+   height: 200px;
+   float: none;
+   margin: auto;
+ }
+
+ .attachment-list {
+   margin-left: 0px !important;
+   margin-right: 0px !important;
+   margin-top: 0px !important;
+   margin-bottom: 0px !important;
+ }
+
+ #list-attach {
+   text-align: center;
+ }
+
+ .dialog-content-signature {
+   text-align: center;
+   font-weight: bold;
+ }
+
+ .dialog-content-attach {
+   text-align: center;
+   margin-bottom: 10px;
+   font-weight: bold;
+ }
+
+
+@media (max-width: 1200px) {
+  .dot-two{
+display: none;
+  }
+  #dialog-content .row{
+    text-align: center;
+  }
+}
+
+ .dialog-content-title {
+   font-weight: bold;
+ }
+
+ .dot-two {
+   padding: 0px;
+   margin: 0px;
+   width: 0px;
+ }
+
+ .odd:hover, .even:hover {
+   background-color:#ebebeb !important;
+ }
+
+ .content1::-webkit-scrollbar-track {
+   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+ }
+
+ .content1::-webkit-scrollbar-thumb {
+   background-color: darkgrey;
+   outline: 1px solid slategrey;
+ }
+
+ #DataTables_Table_0_paginate .current, #DataTables_Table_0_paginate .current:hover {
+   z-index: 3;
+   color: #fff !important;
+   cursor: default;
+   background: none;
+   background-color: #337ab7;
+   border-color: #337ab7;
+ }
+
+ #DataTables_Table_0 tr {
+   cursor: pointer;
+ }
+
+ #DataTables_Table_0_info {
+   text-align: center;
+   width: 100%;
+ }
+
+ #DataTables_Table_0_paginate {
+   display: block;
+   width: 100%;
+   margin-top: 30px;
+   text-align: center;
+ }
+
+ #DataTables_Table_0_paginate a:hover {
+   z-index: 2;
+   color: #15181b !important;
+   background: none;
+   background-color: #eee;
+   border-color: #ddd;
+ }
+
+ #DataTables_Table_0_filter label {
+   width: 100%;
+ }
+
+ #DataTables_Table_0_filter input {
+   display: block;
+   width: 100%;
+   height: 34px;
+   padding: 6px 12px;
+   font-size: 14px;
+   line-height: 1.42857143;
+   color: #555;
+   background-color: #fff;
+   background-image: none;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+   box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+   -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+   -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+   transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+ }
+
+ #one {
+   padding-top: 20px;
+   padding-bottom: 20px;
+ }
+
+ #wrap-sig:before {
+   content: "Signature Draw";
+   position: absolute;
+   top: 150px;
+   left: 90px;
+   font-weight: bold;
+   opacity: 0.3;
+ }
+
+ #wrap-sig:before:hover {
+   display: none;
+   ;
+ }
+
+ #two {
+   padding-top: 20px;
+   padding-bottom: 20px;
+ }
+
+ #save {
+   width: 50%;
+   margin: auto;
+   font-size: 20px;
+ }
+
+ #wrap-sig:hover:before {
+   display: none;
+ }
+
+ #wrap-sig {
+   position: relative;
+   width: 300px;
+   margin: auto;
+   margin-bottom: 20px;
+ }
+
+ .gutter.gutter-horizontal {
+   cursor: ew-resize;
+ }
+
+ table.display tbody tr:nth-child(even):hover td {
+   background-color: red !important;
+ }
+
+ table.display tbody tr:nth-child(odd):hover td {
+   background-color: blue !important;
+ }
+
+ #two[max-width~="870px"] #form1 {
+   width: 870px;
+ }
+
+ #one[max-width~="200px"] #left1 {
+   display: block;
+ }
+
+ #one[max-width~="200px"] {
+   padding-top: 0px;
+   padding-bottom: 0px;
+ }
+
+ #one[max-width~="200px"] .content1 {
+   display: none;
+ }
+
+ #two[max-width~="200px"] #right1 {
+   display: block;
+ }
+
+ #two[max-width~="200px"] {
+   padding-top: 0px;
+   padding-bottom: 0px;
+ }
+
+ #two[max-width~="200px"] #content2 {
+   display: none;
+ }
+
+ #left1, #right1 {
+   cursor: pointer;
+   display: none;
+   background-color: #3a57af;
+   height: 100%;
+   width: 100%;
+ }
+
+ #left1:after {
+   content: "";
+   width: 50px;
+   height: 100px;
+   background-repeat: no-repeat;
+   background-image: url(../img/left.png);
+   background-size: 30px;
+   background-position: center;
+   top: 40%;
+   left: 3%;
+   position: fixed;
+   display: inline-block;
+   -webkit-animation-name: example1;
+   /* Safari 4.0 - 8.0 */
+   -webkit-animation-duration: 2s;
+   /* Safari 4.0 - 8.0 */
+   -webkit-animation-iteration-count: 2;
+   /* Safari 4.0 - 8.0 */
+   -webkit-animation-direction: alternate-reverse;
+   /* Safari 4.0 - 8.0 */
+   animation-name: example1;
+   animation-duration: 0.7s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate-reverse;
+ }
+
+ #right1:after {
+   content: "";
+   width: 50px;
+   height: 100px;
+   background-repeat: no-repeat;
+   background-image: url(../img/right.png);
+   background-size: 30px;
+   background-position: center;
+   top: 40%;
+   right: 3%;
+   position: fixed;
+   display: inline-block;
+   -webkit-animation-name: example2;
+   /* Safari 4.0 - 8.0 */
+   -webkit-animation-duration: 2s;
+   /* Safari 4.0 - 8.0 */
+   -webkit-animation-iteration-count: 2;
+   /* Safari 4.0 - 8.0 */
+   -webkit-animation-direction: alternate-reverse;
+   /* Safari 4.0 - 8.0 */
+   animation-name: example2;
+   animation-duration: 0.7s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate-reverse;
+ }
+
+ /* Safari 4.0 - 8.0 */
+ @-webkit-keyframes example1 {
+   0% {
+     left: 3%;
+   }
+
+   100% {
+     left: 4%;
+   }
+ }
+
+ /* Standard syntax */
+ @keyframes example1 {
+   0% {
+     left: 3%;
+   }
+
+   100% {
+     left: 4%;
+   }
+ }
+
+ /* Safari 4.0 - 8.0 */
+ @-webkit-keyframes example2 {
+   0% {
+     right: 3%;
+   }
+
+   100% {
+     right: 4%;
+   }
+ }
+
+ /* Standard syntax */
+ @keyframes example2 {
+   0% {
+     right: 3%;
+   }
+
+   100% {
+     right: 4%;
+   }
+ }
+
+ .content1 {
+   position: fixed;
+   float: right;
+   overflow-y: scroll;
+   overflow-x: hidden;
+   height: 95%;
+ }
+
+ .file span, .file input {
+   cursor: pointer;
+ }

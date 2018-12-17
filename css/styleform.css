@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.content1::-webkit-scrollbar {
+  width: 5px;
+}
+
+.content1::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.content1::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+
+
+
+
+
+
+
+
+#wrap-sig:before {
+  content: "Signature Draw";
+  position: absolute;
+  top: 150px;
+  left: 90px;
+  font-weight: bold;
+  opacity: 0.3;
+}
+
+#wrap-sig:before:hover {
+  display: none;
+  ;
+}
+
+#two {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#save {
+  width: 50%;
+  margin: auto;
+  font-size: 20px;
+}
+
+#wrap-sig:hover:before {
+  display: none;
+}
+
+#wrap-sig {
+  position: relative;
+  width: 300px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+
+
+#two{
+  width: 90%;
+margin: auto;
+}
+
+
+.content1 {
+  position: fixed;
+  float: right;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 95%;
+}
+
+.file span, .file input {
+  cursor: pointer;
+}
